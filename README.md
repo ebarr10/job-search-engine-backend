@@ -3,7 +3,7 @@ Utilizing the JobSpy repository, this is a website where you can search multiple
 
 To run:
 1. Create an virtual environment: `python3 -m venv env`
-2. Activate the environment: `.\env\Scripts\Activate` in powershell (might need to adjust permissions in cmd if it doesn't work)
+2. Activate the environment: `.\env\Scripts\Activate` in powershell (might need to adjust permissions in cmd if it doesn't work) ---> `source env/Scripts/activate` in bash
 3. Install all packages `pip install -r requirements.txt`
 4. cd into the backend folder
 5. Run: `waitress-serve --port=8000 backend.wsgi:application`
